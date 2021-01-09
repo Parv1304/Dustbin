@@ -18,9 +18,9 @@ function setup() {
 	//Create the Bodies Here.
 	paper1=new Paper();
 	ground=new Ground();
-	bin1=new Bin(600,658,200,20);
-	bin2=new Bin(490,618,20,100);
-	bin3=new Bin(710,618,20,100);
+	bin1=new Bin(600,358,200,20);
+	bin2=new Bin(490,318,20,100);
+	bin3=new Bin(710,318,20,100);
 	Engine.run(engine);
   
 }
